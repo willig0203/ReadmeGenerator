@@ -13,7 +13,7 @@ This is a Node.js program that generates a README page based on the users input.
 
 ## Review
 
-* GitHub repository: https://github.com/willig0203/Portfolio-Generator
+* GitHub repository: https://github.com/willig0203/ReadmeGenerator
 
 
 ## Contribution
