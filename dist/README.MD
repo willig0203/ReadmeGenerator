@@ -1,11 +1,28 @@
 
-  # [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  # [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
   # Project Title: 2
+
+  # Contents
+   - [Description](#description)
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [Contribute](#contribute)
+   - [Testing](#testing)
+   - [License](#license)
+   - [Questions](#questions)
+
   ## Description: 3
+
   ## Installation: 4
+
   ## Usage: 5
-  ## Want to contribute: 6
+
+  ## Contribute: 6
+
   ## Testing: 7
-  ## License:  GNU GPLv3
-  ## Git Username: 8
-  ## Email: 9
+
+  ## License:  MIT License
+  
+  ## Questions
+    ### Git Username: 8
+    ### Email: 9
