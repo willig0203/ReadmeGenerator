@@ -1,12 +1,18 @@
 // TODO: Include packages needed for this application
+const fs = require('fs');
 const inquirer = require('inquirer');
 const generatePage = require('./utils/generateMarkdown.js');
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+// function writeToFile(fileName, data) { }
 
 // function to initialize app
-const init = () => {
+const init = nameData => {
+    console.log(`
+    ++++++++++++
+    Name of User
+    ++++++++++++
+    `);
     return inquirer.prompt([
         {
             type: 'input',
@@ -147,17 +153,37 @@ const promptQuestions = questionsData => {
         ])
 };
 
+// writing files
+const writeFile = fileContent => {
+    return new Promise((resolve, reject) => {
+      fs.writeFile('./dist/README.MD', fileContent, err => {
+        if (err) {
+          reject(err);
+          return;
+        }
+  
+        resolve({
+          ok: true,
+          message: 'README.MD File created in dist folder!'
+        });
+      });
+    });
+  };
 
+  
 // Function call to initialize app
-init()
-    .then(promptQuestions)
-    .then(questionsData => {
-        console.log(questionsData);
-        // return generatePage(portfolioData);
+init() // get name from user
+    .then(nameData => {
+        console.log(nameData);
     })
-    //   .then(pageHTML => {
-    //     return writeFile(pageHTML);
-    //   })
+    .then(promptQuestions) // function to prompt questions
+    .then(questionsData => { // function to get questions
+        console.log(questionsData);
+        return generatePage(questionsData);
+    })
+    .then(data => {
+        return writeFile(data);
+    })
     //   .then(writeFileResponse => {
     //     console.log(writeFileResponse);
     //     return copyFile();
