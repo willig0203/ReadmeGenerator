@@ -10,40 +10,19 @@ function renderLicenseLink(license) { }
 // If there is no license, return an empty string
 function renderLicenseSection(license) { }
 
-// // TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
-//   // console.log("Generating Markdown");
-//   // console.log(data);
-//   return `
-//   # ${data.title}
-//   # ${data.description}
-//   # ${data.installation}
-//   # ${data.usage}
-//   # ${data.contribution}
-//   # ${data.test}
-//   # ${data.license}
-//   # ${data.gitUsername}
-//   # ${data.email}
-// `;
-// }
 
 module.exports = data => {
 
   return `
-  test md text for fileContent
-
-  # ${data.title}
-  # ${data.description}
-  # ${data.installation}
-  # ${data.usage}
-  # ${data.contribution}
-  # ${data.test}
-  # ${data.license}
-  # ${data.gitUsername}
-  # ${data.email}
+  # Project Title: ${data.title}
+  ## Description: ${data.description}
+  ## Installation: ${data.installation}
+  ## Program Usage: ${data.usage}
+  ## Want to contribute: ${data.contribution}
+  ## How to test: ${data.test}
+  ## License: ${data.license}
+  ## Git user name: ${data.gitUsername}
+  ## Email: ${data.email}
 `;
 
 };
-
-
-// module.exports = generateMarkdown;
