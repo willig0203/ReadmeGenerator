@@ -1,5 +1,5 @@
 
-  # [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+  # [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   # Project Title: 2
 
   # Contents
@@ -21,8 +21,10 @@
 
   ## Testing: 7
 
-  ## License:  MIT License
-  
+  ## License:  GNU GPLv3
+
   ## Questions
     ### Git Username: 8
     ### Email: 9
+
+    - [Return to Top](#project-title)
