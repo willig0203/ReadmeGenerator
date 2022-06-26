@@ -122,7 +122,7 @@ const promptQuestions = questionsData => {
                 type: 'list',
                 name: 'license',
                 message: 'What license do you chooce for this project?',
-                choices: ['MIT License', 'GNU GPLv3']
+                choices: ['None', 'MIT License', 'GNU GPLv3']
             },
             {
                 type: 'input',
