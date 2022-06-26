@@ -31,14 +31,31 @@ module.exports = data => {
   return `
   # ${renderLicenseBadge(data.license)}
   # Project Title: ${data.title}
+
+  # Contents
+   - [Description](#description)
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [Contribute](#contribute)
+   - [Testing](#testing)
+   - [License](#license)
+   - [Questions](#questions)
+
   ## Description: ${data.description}
+
   ## Installation: ${data.installation}
+
   ## Usage: ${data.usage}
-  ## Want to contribute: ${data.contribution}
+
+  ## Contribute: ${data.contribution}
+
   ## Testing: ${data.test}
+
   ## License:  ${data.license}
-  ## Git Username: ${data.gitUsername}
-  ## Email: ${data.email}
+  
+  ## Questions
+    ### Git Username: ${data.gitUsername}
+    ### Email: ${data.email}
 `;
 
 };
