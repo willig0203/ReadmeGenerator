@@ -57,7 +57,7 @@ module.exports = data => {
     ### Git Username: ${data.gitUsername}
     ### Email: ${data.email}
 
-- [Project Title](#project-title)
+// - [Project Title](#project-title)
 `;
 
 };

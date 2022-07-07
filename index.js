@@ -178,7 +178,7 @@ init() // get name from user
     })
     .then(promptQuestions) // function to prompt questions
     .then(questionsData => { // function to get questions
-        console.log(questionsData);
+        // console.log(questionsData);
         return generatePage(questionsData);
     })
     .then(data => {

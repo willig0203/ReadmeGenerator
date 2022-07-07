@@ -1,10 +1,22 @@
-# Professional README Generator Starter Code
+# Professional README Generator
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+This is a command line tool made wth Node Pakage Manager, Node.js and Inquirer.js, It generates a README page based on the users input.
+
+## How to Install usin Windows
+1) Clone the project from https://github.com/willig0203/ReadmeGenerator.git to the location of your choice using Git Bash.
+2) Open the main folder in VSCode.
+3) Use the 'npm install' at your terminal in VSCode and this should install all the needed packages listed in the existing package-lock.json file in the project.
+
+## How to Use 
+1) In your VSCode terminal run the command node index.js, this should start the command line and ask the user to enter some information, follow the promts.
 
 
 
-This is a Node.js program that generates a README page based on the users input.
+
+## How to Report Issues
+
+## How to Contibute
+
 
 ## Image
 
