@@ -2,7 +2,7 @@
 
 This is a command line tool made wth Node Pakage Manager, Node.js and Inquirer.js, It generates a README page based on the users input.
 
-## How to Install usin Windows
+## How to Install using Windows
 1) Clone the project from https://github.com/willig0203/ReadmeGenerator.git to the location of your choice using Git Bash.
 2) Open the main folder in VSCode.
 3) Use the 'npm install' at your terminal in VSCode and this should install all the needed packages listed in the existing package-lock.json file in the project.
