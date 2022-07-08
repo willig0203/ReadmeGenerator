@@ -153,11 +153,11 @@ init()
     .then(promptQuestions)
     .then(questionsData => {
         console.log(questionsData);
-        // return generatePage(portfolioData);
+        return generatePage(questionsData);
     })
-    //   .then(pageHTML => {
-    //     return writeFile(pageHTML);
-    //   })
+      .then(pageHTML => {
+        return writeToFile(pageHTML, questionsData);
+      })
     //   .then(writeFileResponse => {
     //     console.log(writeFileResponse);
     //     return copyFile();
