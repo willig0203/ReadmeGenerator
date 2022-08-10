@@ -30,7 +30,7 @@ To be addressed later.
 
 - GitHub repository: https://github.com/willig0203/ReadmeGenerator
 
-- Link to vidio: https://drive.google.com/file/d/17-mCI2wdBlY29q5vqxgriqZyNfSHGshD/view
+- Link to video: https://drive.google.com/file/d/17-mCI2wdBlY29q5vqxgriqZyNfSHGshD/view
 
 ## Contribution
 
