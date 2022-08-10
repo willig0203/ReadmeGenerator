@@ -1,6 +1,7 @@
 
   # [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-  # Project Title: proj
+  # Project Title
+  Professional README generator.
 
   # Contents
    - [Description](#description)
@@ -11,19 +12,25 @@
    - [License](#license)
    - [Questions](#questions)
 
-  ## Description: desc
+  #### Description
+  This markup generator can quickly create a professional README file for any project, the file contains a table of contents that links to the different sections of interest to the reader.
 
-  ## Installation: inst
+  #### Installation
+  Clone the repository and run 'npm install' in your vsCode terminal.
 
-  ## Usage: usage
+  #### Usage
+  To run the program type 'node index' in your terminal and follow the prompts.
 
-  ## Contribute: contribute
+  #### Contribute
+  To contribute to the project contact me by clicking the email link at the bottom.
 
-  ## Testing: test
+  #### Testing
+  There are no active tests at this time.
 
-  ## License:  MIT License
+  #### License
+  MIT License
 
-  ## Questions
-    ### Git Username: git
-    ### Email: git
+  #### Questions  
+  [Git Username](https://github.com/willig0203)  
+  [Contact Me](mailto:willig0203@gmail.com)
 
